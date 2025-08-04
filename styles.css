@@ -160,13 +160,17 @@ main h2 {
 }
 
 /* ===== Planet Section ===== */
-.planet-3D {
-    position: absolute; 
-    top: -14%;
-    right: 25%;
-    width: 55%;
-    height: 55%;
+@media (max-width: 768px) {
+    .planet-3D {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 300px; /* Adjust height as needed */
+        margin: 2rem 0;
+    }
 }
+
 
 
 
@@ -754,3 +758,4 @@ footer {
   font-weight: 600;
   margin-top: 10px;
 }
+
