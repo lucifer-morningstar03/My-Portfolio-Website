@@ -169,6 +169,13 @@ main h2 {
         height: 300px; /* Adjust height as needed */
         margin: 2rem 0;
     }
+
+    .spline-viewer {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 }
 
 
@@ -758,4 +765,5 @@ footer {
   font-weight: 600;
   margin-top: 10px;
 }
+
 
